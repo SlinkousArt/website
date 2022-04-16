@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bgmain: #bbbbbb;
+        --txtmain: #111111;
+        --txtbold: #000000;
+    
+        --trmain: rgba(255,255,255,0.5);
+        --tralt: rgba(0,0,0,0.5);
+    
+        --socialWidth: 36px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bgmain: #111111;
+        --txtmain: #bbbbbb;
+        --txtbold: #ffffff;
+    
+        --trmain: rgba(0,0,0,0.5);
+        --tralt: rgba(255,255,255,0.5);
+    
+        --socialWidth: 36px;
+    }
+}
+
+html, body {
+    background-color: var(--bgmain);
+    color: var(--txtmain);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+a {
+    color: var(--txtmain);
+    text-decoration: underline;
+}
+a:hover {
+    color: var(--txtbold);
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--tralt);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--txtmain)
+}
