@@ -10,8 +10,8 @@ export default function Header() {
           <div className={styles.nav}>
             <Button goTo="/">Home</Button>
             <Button goTo="/">About</Button>
-            <Button goTo="/">Works</Button>
-            <Button goTo="https://www.redbubble.com/people/spencerlinkous/shop" newTab>Shop</Button>
+            <Button goTo="/works/sample">Works</Button>
+            <Button goTo="https://www.redbubble.com/people/spencerlinkous/shop">Shop</Button>
           </div>
         </div>
         <hr className={styles.fullLine}/>

@@ -10,7 +10,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
+
+@media (min-width: 1000px) {
+    .flexContainer {
+        flex-direction: row;
+    }
+}
+
 
 .home, .home a {
     color: var(--txtmain);

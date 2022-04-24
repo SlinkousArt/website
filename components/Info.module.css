@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+.right {
+    flex: 1;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
+.right .title {
+    text-align: center;
+}
+
+.left img {
+    width: 100%;
+}
+
+.buttonBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

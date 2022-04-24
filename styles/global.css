@@ -52,3 +52,17 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--txtmain)
 }
+
+.halfCenterLine {
+    border: none;
+    border-bottom: 1px solid var(--txtmain);
+    width: 50%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+p {
+    line-height: 1.5;
+}
