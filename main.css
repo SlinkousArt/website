@@ -8,3 +8,5 @@ nav{display: flex; justify-content: center;}
 .button{display:flex;padding:1em;box-shadow:5px 5px var(--2);margin:2em; text-decoration: none; background:var(--1);}
 .button:hover{box-shadow:7px 7px var(--4);}
 #logo{margin:1em;}
+#sameLine{display:flex;align-items: center;justify-content: center;}
+h1{font-size:72px; font-weight:300;}
