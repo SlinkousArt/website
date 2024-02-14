@@ -12,7 +12,7 @@ a{color:var(--3);}
 .centerstuff{display: flex; align-items: center; justify-content: center;}
 .lightbg{background: var(--3); color: var(--1);}
 nav{display: flex; justify-content: center;flex-direction:var(--break);}
-.button{display:flex;padding:1em;box-shadow:5px 5px var(--2);margin:2em; text-decoration: none; background:var(--1);justify-content: center;}
+.button{font-size: 18px;display:flex;padding:1em;box-shadow:5px 5px var(--2);margin:2em; text-decoration: none; background:var(--1);justify-content: center;}
 .button:hover{box-shadow:7px 7px var(--4);}
 #logo{margin:1em;}
 #sameLine{display:flex;align-items: center;justify-content: center;flex-direction:var(--break);}
