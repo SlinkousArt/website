@@ -41,3 +41,9 @@ hr {
   margin: auto;
   box-shadow: 4px 4px var(--2);
 }
+
+#content {
+  width: 75%;
+  margin: auto;
+  padding: 12px
+}
