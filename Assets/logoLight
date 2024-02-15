@@ -1,0 +1,16 @@
+      <svg id="logo" width="110" height="110" xmlns="http://www.w3.org/2000/svg">
+        <rect width="10" height="10" x="10" y="10" fill="#dedede" />
+        <rect width="10" height="10" x="30" y="10" fill="#dedede" />
+        <rect width="10" height="10" x="50" y="10" fill="#dedede" />
+        <rect width="10" height="10" x="10" y="30" fill="#dedede" />
+        <rect width="30" height="10" x="30" y="30" fill="#dedede" />
+        <rect width="10" height="10" x="70" y="30" fill="#dedede" />
+        <rect width="10" height="10" x="90" y="30" fill="#dedede" />
+        <rect width="10" height="10" x="10" y="50" fill="#dedede" />
+        <rect width="10" height="10" x="30" y="50" fill="#dedede" />
+        <rect width="30" height="10" x="10" y="70" fill="#dedede" />
+        <rect width="10" height="10" x="50" y="70" fill="#dedede" />
+        <rect width="30" height="10" x="10" y="90" fill="#dedede" />
+        <rect width="10" height="10" x="50" y="90" fill="#dedede" />
+        <rect width="30" height="10" x="70" y="90" fill="#dedede" />
+      </svg>
