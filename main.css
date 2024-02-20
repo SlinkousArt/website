@@ -43,16 +43,15 @@ hr {
 }
 
 main {
-  width: 75%;
+  width: 90%;
   margin: auto;
-  padding: 12px
+  padding: 36px;
 }
 
 ::selection {
   color: var(--1);
   background: var(--4);
 }
-
-portfolio{
-  display:flex;
-}
+#portfolio {display:flex;flex-wrap:wrap;justify-content: center;}
+.galleryLink {display:flex; margin: 30px;flex-grow:1;flex-basis: 325px;}
+.galleryImage {width: 100%;}
