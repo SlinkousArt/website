@@ -57,3 +57,5 @@ main {
 .galleryImage {width: 100%;}
 
 .galleryImage:hover {transform:scale(105%);box-shadow:8px 8px var(--4);}
+
+.bigImage {width: 90%;}
