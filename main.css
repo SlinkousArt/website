@@ -59,3 +59,9 @@ main {
 .galleryImage:hover {transform:scale(105%);box-shadow:8px 8px var(--4);}
 
 .bigImage {width: 90%;}
+
+p#info, #metadata {font-size: 24px; width:70%; padding: 42px;}
+
+.title {padding:24px;}
+
+p a:hover{color:var(--1);background:var(--4);}
