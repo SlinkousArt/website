@@ -65,3 +65,5 @@ p#info, #metadata {font-size: 24px; width:70%; padding: 42px;}
 .title {padding:24px;}
 
 p a:hover{color:var(--1);background:var(--4);}
+
+p {line-height:1.5; font-size: 18px;}

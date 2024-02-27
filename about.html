@@ -7,11 +7,9 @@
   <meta theme-color="#151515"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    #floatbox{background: var(--3); color: var(--1); max-width: 90%;
-      box-shadow: var(--2) 10px 10px;
-      padding: 2em 4em;
-      text-align: center;
-    }
+    main{display: flex; justify-content: center;}
+    #centerCont{width: 65%}
+    .bold{font-weight:bold}
   </style>
 </head>
 <body>
@@ -45,16 +43,22 @@
 </header>
 
 <main>
-    <h1>Hello,<br/>I am slink.</h1>
-    <p>
-      This is a website.<br/>wow<br/><br/>
-      <span id="bold">Some basic info:<br/></span>
-      <span id="bold">Name:</span> Eri <br/>
-      <span id="bold">Age:</span> 19<br/>
-      <span id="bold">Pronouns:</span> She/They</br>
-      <br/><br/>
-      I really need to add more info here...
-      <br/><br/>
-    </p>
+  <div id="centerCont">
+    <h1>Hello,<br/>I am slink.</h1><br/><br/>
+      <p>
+        I am an artist and VFX student working in Blender.<br/><br/>
+        <span class="bold">Some basic info:<br/></span>
+        <span class="bold">Name:</span> Eri <br/>
+        <span class="bold">Age:</span> 20<br/>
+        <span class="bold">Pronouns:</span> They/She</br>
+        <br/><br/>
+        You can view my work on my <a href="/portfolio.html">portfolio</a> page.<br/>
+        Alternatively, you can see more frequent updates on my socials:
+        <br/><br/>
+        <a target="_blank" href="https://misskey.design/@slink">Misskey (art and wips),</a><br/>
+        <a target="_blank" href="https://pixelfed.art/@slink">Pixelfed (finished art only),</a><br/>
+        or <a target="_blank" href="https://elk.zone/tilde.zone/@slink">Mastodon (general)</a><br/>
+      </p>
+  </div>
 </main>
 </body>
