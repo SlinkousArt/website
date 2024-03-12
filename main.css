@@ -1,7 +1,7 @@
-@font-face {
+/** @font-face {
     font-family: 'Cantarell';
     src: url('Assets/Cantarell-VF.otf') format('opentype');
-}
+}**/
 :root{--1:#151515;--2:#424242;--3:#dedede;--4:#de4242;--break:row}
 @media only screen and (max-width: 50em) {
   :root{--break:column;}
